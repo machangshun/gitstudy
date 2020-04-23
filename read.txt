@@ -60,22 +60,11 @@ git stash暂存
 git stash pop取出暂存
 
 git clone https://github.com/machangshun/pythonstudy.git 从github克隆到git
-git remote add origin https://github.com/..
-git push -u origin master
-git pull --rebase origin master
-git push origin HEAD:master
 
-…or create a new repository on the command line
-echo "# pythonstudy" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/machangshun/pythonstudy.git
+ssh-keygen -t rsa -C "sample@qq.com"添加ssh
+git remote add origin https://github.com/..
+git pull --rebase origin master github有的内容本地仓库没有需要执行
 git push -u origin master 第一次传
 git push origin master 以后传
-
-…or push an existing repository from the command line
-git remote add origin https://github.com/machangshun/pythonstudy.git
-git push -u origin master
 
 rundll32.exe keymgr.dll,KRShowKeyMgr 解决403
